@@ -1,0 +1,38 @@
+.App-header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100px;
+  font-family: "Montez", cursive;
+  background: #fffbd5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b20a2c, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b20a2c, #fffbd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 2px, solid black;
+}
+
+.App-body {
+  clear: both;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 600px;
+  background: #fffbd5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b20a2c, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b20a2c, #fffbd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+  overflow: hidden;
+}
+
+.App-footer {
+  clear: both;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 295px;
+  background: #fffbd5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b20a2c, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b20a2c, #fffbd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+  overflow: hidden;
+}
+
+
+
