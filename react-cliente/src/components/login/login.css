@@ -1,85 +1,51 @@
-.login{
-    margin-top: 100px;
-    margin-bottom: 250px;
-    margin-left: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
-    height: 400px;
-}
-
-.fondo{
+.caja{
+    margin: 0;
+    padding: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-    margin:0;
-    border-radius: 5px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( 105.5deg,  rgba(176,176,176,1) 29.3%, rgba(220,216,216,1) 51.8% );
+
+
+}
+
+
+.login{
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
+    justify-content: center;
 }
 
-.fondo img{
-    margin-top: -60px;
-    margin-bottom: 40px;
-    width: 20%;
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-usuario{
+    display: flex;
+    justify-self: center;
+    width: 100px;
     border-radius: 50%;
-    border: solid #fff 5px;
+    margin-top: -50%;
+    border: 2px solid white;
 }
 
-.fondo h3{
-    color: #fff;
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 40px;
+.btn{
+    display: flex;
+    align-content: center;
 }
 
-.fondo div{
-    width: 75%;
+.button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
-    justify-items: center;
+    justify-content: center;
+    margin: 3px;
 }
-
-.input{
-    margin-right: 35px;
-    box-shadow: 0;
-    border: 0;
-    background-color: rgba(255, 255, 255, .1);
-    width: 80%;
-    margin-bottom: 35px;
-    height: 30px;
-    border: solid 2px rgba(255,255,255,.5);
-    font-size: 20px;
-    color: #fff;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    text-align: center;
-    transition: all 250ms ease;
-}
-
-.fondo div .input:focus{
-    outline:0px;
-    background-color: rgba(255, 255, 255, .6);
-    border: solid 2px rgba(255,255,255,.01);
-    color: #000;
-}
-
-
-
-h6{
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-    transition: all 300ms ease;
-}
-
-h6:hover{
-    color: rgb(184, 203, 214);
-}
-
